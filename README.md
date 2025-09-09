@@ -37,13 +37,12 @@ Have you ever wanted to organize your day and feel great satisfaction in accompl
 sequenceDiagram
     actor You
     actor Friend
-    participant Website
 
-    You->>Website: Request page
-    Website-->>You: Display content
+    You->>Server: Request page
+    Server -->>You: Display content
 
-    Friend->>Website: Request page
-    Website-->>Friend: Display content
+    Friend->>Server: Request page
+    Server -->>Friend: Display content
 ```
 
 ### Key features
