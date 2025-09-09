@@ -35,8 +35,8 @@ Have you ever wanted to organize your day and feel great satisfaction in accompl
 
 ```mermaid
 sequenceDiagram
-    actor You
-    actor Friend
+    participant You
+    participant Friend
     participant Website
 
     You->>Website: Request page
