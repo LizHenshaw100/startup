@@ -33,6 +33,7 @@ Have you ever wanted to organize your day and feel great satisfaction in accompl
 ![Design image](sketch.png)
 
 
+```mermaid
 sequenceDiagram
     actor You
     actor Friend
@@ -43,6 +44,7 @@ sequenceDiagram
 
     Friend->>Website: Request page
     Website-->>Friend: Display content
+```
 
 ### Key features
 
